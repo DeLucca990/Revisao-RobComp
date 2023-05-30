@@ -1,3 +1,3 @@
-# Revisão RobComp PI
+# Revisão RobComp PI/PF
 
-Funções importantes para a prova intermediária de Robótica Computacional
+Funções importantes para a PI/PF de Robótica Computacional
