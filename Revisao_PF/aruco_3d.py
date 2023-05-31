@@ -109,6 +109,7 @@ class Aruco3d:
                 pose = Pose()
                 pose.position.y = self.distancias[i]
                 pose.position.x = self.ids[i]
+                pose.position.z = self.centros_aruco[i][0]
                 msg.poses.append(pose)
         self.infos_arucos_pub.publish(msg)
                     

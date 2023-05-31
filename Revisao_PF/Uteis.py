@@ -49,6 +49,7 @@ class Control():
         self.y_white = 0
 
         self.ids = 0
+        self.x_arucos = 0
         self.distances_arucos = 0
         self.countours_green = 0
         self.countours_white = 0
@@ -198,6 +199,7 @@ class Control():
         if len(msg.poses) > 0:
             self.ids=msg.poses[0].position.x
             self.distances_arucos=msg.poses[0].position.y
+            self.x_arucos=msg.poses[0].position.z
             
     def color_segmentation(self,bgr: np.ndarray) -> None:
         """ 
