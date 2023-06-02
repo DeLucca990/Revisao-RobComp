@@ -19,6 +19,8 @@ Running Garra
     roslaunch mybot_description mybot_control2.launch
 """
 
+# Antes de começar, copie a pasta "MobileNet" para o seu diretório, assim como os arquivos "aruco_3d.py" e "biblioteca_cow.py"
+
 class Control():
     def __init__(self):
         self.rate = rospy.Rate(250) # 250 Hz
