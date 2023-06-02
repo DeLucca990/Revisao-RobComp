@@ -20,6 +20,7 @@ Running Garra
 """
 
 # Antes de começar, copie a pasta "MobileNet" para o seu diretório, assim como os arquivos "aruco_3d.py" e "biblioteca_cow.py"
+# Além disso, copie os arquivos de texto das câmeras (precisa disso para o aruco funcionar)
 
 class Control():
     def __init__(self):
